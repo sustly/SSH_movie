@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springtest" />
+          <element id="module-output" name="SSH_movie" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.5.RELEASE" />
@@ -75,7 +75,7 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.6" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="springtest/web/Web" />
+      <element id="javaee-facet-resources" facet="SSH_movie/web/Web" />
     </root>
   </artifact>
 </component>
