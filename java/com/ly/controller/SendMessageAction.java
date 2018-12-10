@@ -1,6 +1,7 @@
 package com.ly.controller;
 
 import com.ly.service.Myservice;
+import com.ly.service.serviceimpl.MyserviceImpl;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
 import org.aspectj.lang.annotation.Aspect;
@@ -23,6 +24,9 @@ import java.util.List;
 //@Component
 public class SendMessageAction extends ActionSupport {
     private String param;
+
+
+
     public void setParam(String param) {
         this.param = param;
     }

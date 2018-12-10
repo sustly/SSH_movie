@@ -3,26 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
 http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
- <!--  <servlet>
-      <servlet-name>showViewServlet</servlet-name>
-      <servlet-class>com.ly.controller.ShowViewServlet</servlet-class>
-      <load-on-startup>1</load-on-startup>
-   </servlet>
-   <servlet-mapping>
-      <servlet-name>showViewServlet</servlet-name>
-      <url-pattern>/show/aa</url-pattern>
-   </servlet-mapping>-->
-   <!-- <servlet>
-        <servlet-name>springmvc</servlet-name>
-        <servlet-class>
-            org.springframework.web.servlet.DispatcherServlet
-        </servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>-->
-   <!-- <servlet-mapping>
-        <servlet-name>springmvc</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>-->
+
+    <filter>
+        <filter-name>struts2</filter-name>
+        <filter-class>org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>struts2</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
