@@ -201,6 +201,13 @@
             <artifactId>struts2-core</artifactId>
             <version>2.5.18</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-spring-plugin -->
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-spring-plugin</artifactId>
+            <version>2.5.18</version>
+        </dependency>
+
 
     </dependencies>
 

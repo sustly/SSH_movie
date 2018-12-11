@@ -7,4 +7,5 @@
         <action name="send" class="com.ly.controller.SendMessageAction" method="send">
         </action>
     </package>
+    <constant name="struts.objectFactory" value="spring" />
 </struts>

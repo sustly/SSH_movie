@@ -13,6 +13,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 
 import javax.annotation.Resource;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
@@ -21,22 +23,18 @@ import java.util.List;
  * @author liyue
  * @date 2018/12/10 13:28
  */
-//@Component
+@Component
 public class SendMessageAction extends ActionSupport {
     private String param;
-
-
-
     public void setParam(String param) {
         this.param = param;
     }
-    public ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-    //@Autowired
-    //public Myservice service;
+
+    @Autowired
+    public Myservice service;
 
 
     public String send() throws IOException {
-        Myservice service = (Myservice) context.getBean("myserviceImpl");
         HttpServletResponse response = ServletActionContext.getResponse();
         response.setContentType("text/html;charset=utf-8");
         String hql = "select a from FilmBtsNew a where a.name like ?0";
@@ -46,4 +44,5 @@ public class SendMessageAction extends ActionSupport {
         response.getWriter().print(jsonObject);
         return NONE;
     }
+
 }
