@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="GROUP_BY_SEVERITY" value="true" />
-  </component>
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="springtest:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b05be728-2ebe-4ae4-902c-0e41a4ad3ea9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springtest_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/springtest_war_exploded.xml" afterDir="false" />
+    <list default="true" id="32d7d9f0-8f64-4774-a18c-e8ebe448f73b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springtest_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springtest_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb0c9836-b90a-4d1a-bca0-379ca0aa3e15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/ly/controller/SendMessageAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/com/ly/controller/SendMessageAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSH_movie.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springtest_war_exploded/WEB-INF/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springtest_war_exploded/WEB-INF/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springtest_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springtest_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rebel.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,282 +30,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bts@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bts@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bts@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bts: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="autoscrollToSource" value="true" />
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-106957492">
+    <session id="1015843717">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
-          <entry key="project.open.time.116" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.3" value="4" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.38" value="2" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.50" value="2" />
-          <entry key="project.open.time.54" value="1" />
-          <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.57" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.71" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="28" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="7" />
-          <entry key="java" value="3607" />
-          <entry key="jsp" value="50" />
-          <entry key="properties" value="5" />
-          <entry key="txt" value="19" />
-          <entry key="xml" value="935" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3607" />
-          <entry key="JSP" value="50" />
-          <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="935" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="apk_info" value="1" />
-          <entry key="class" value="50" />
-          <entry key="iml" value="2" />
-          <entry key="java" value="70" />
-          <entry key="jsp" value="6" />
-          <entry key="pom" value="1" />
-          <entry key="properties" value="2" />
-          <entry key="sql" value="3" />
-          <entry key="xml" value="40" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="50" />
-          <entry key="Database Element" value="1" />
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="70" />
-          <entry key="JSP" value="6" />
-          <entry key="Properties" value="2" />
-          <entry key="Scratch" value="3" />
-          <entry key="XML" value="41" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/com/ly/controller/SendMessageAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/com/ly/service/Myservice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/com/ly/controller/ShowViewServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/struts.xml">
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="214" column="10" lean-forward="true" selection-start-line="214" selection-start-column="10" selection-end-line="214" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/com/ly/service/serviceimpl/MyserviceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/com/ly/dao/daoImpl/SysDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="spring-beans.schema" />
-        <option value="Interface" />
-        <option value="Jsp File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>hiber</find>
-      <find>C3P0ConnectionProvider</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/java/com/ly/javabean/Student.java" />
-        <option value="$PROJECT_DIR$/web/springmvc-servlet.xml" />
-        <option value="$PROJECT_DIR$/java/com/ly/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/test/SpringTest.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/javabean/FilmDlAddress.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/javabean/FilmDoubanImg.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/javabean/HostMail.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/javabean/LocationInfo.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/javabean/ApkInfo.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/dao/SysDaoImpl.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/daoImpl/SysDaoImpl.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/dao/daoImpl/SysDao.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/dao/SysDao.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/dao/daoImpl/Sysdao.java" />
-        <option value="$PROJECT_DIR$/web/web.xml" />
-        <option value="$PROJECT_DIR$/java/com/ly/service/MyserviceImpl/MyserviceImpl.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/test/SpringTest.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/service/Myservice.java" />
-        <option value="$PROJECT_DIR$/java/logback.xml" />
-        <option value="$PROJECT_DIR$/resource/log4j.properties" />
-        <option value="$PROJECT_DIR$/java/com/ly/javabean/Dg.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/javabean/FilmBtsNew.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/dao/Sysdao.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/service/serviceimpl/MyserviceImpl.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/config/SysDAOConfiiguration.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/config/SysDaoConfiiguration.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/dao/daoImpl/SysDaoImpl.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/log/loggerAspect.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/util/tcpSockUtil.java" />
-        <option value="$PROJECT_DIR$/java/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/java/com/ly/controller/ShowViewServlet.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java" />
-        <option value="$PROJECT_DIR$/java/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/java/com/ly/test/demo.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/success.jsp" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/java/com/ly/test/tset.java" />
-        <option value="$PROJECT_DIR$/java/struts.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/java/com/ly/controller/SendMessageAction.java" />
-      </list>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../ssh" value="PREVIEW" />
+      </map>
     </option>
-  </component>
-  <component name="JRebelWorkspace">
-    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -308,180 +56,61 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/apache-maven-3.6.0" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1810" />
     <option name="y" value="115" />
     <option name="width" value="1920" />
     <option name="height" value="1030" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Ali-Check</id>
-          </State>
-          <State>
-            <id>JPA</id>
-          </State>
-          <State>
-            <id>Spelling</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>JpaQlInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="springtest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SSH_movie" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
+              <item name="SSH_movie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSH_moive" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
+              <item name="SSH_movie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSH_moive" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
+              <item name="SSH_movie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSH_moive" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSH_movie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSH_moive" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ly" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ly" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ly" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="daoImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ly" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ly" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceimpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="JPA.DatabaseSchemaImportDialog" value="eb0c9836-b90a-4d1a-bca0-379ca0aa3e15" />
-    <property name="SearchEverywhereHistoryKey" value="StrutsPrepareAndExecuteFilter&#9;PSI&#9;JAVA://org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter&#10;Console&#9;PSI&#9;JAVA://org.apache.log4j.ConsoleAppender&#10;C3p0C&#9;PSI&#9;JAVA://org.hibernate.c3p0.internal.C3P0ConnectionProvider" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.22153845" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ly.test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\IdeaProjects\springtest\web" />
-      <recent name="C:\Users\admin\IdeaProjects\springtest\web\WEB-INF" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\IdeaProjects\springtest\java" />
-      <recent name="C:\Users\admin\IdeaProjects\springtest\java\com\ly\controller" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="com.ly.javabean" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ly.service" />
-    </key>
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -495,32 +124,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.local tomcat">
-    <configuration name="tset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.test.tset" />
-      <module name="SSH_movie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ly.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="local tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="apache-tomcat-8.5.35" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+  <component name="RunManager">
+    <configuration name="local" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="apache-tomcat-8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
-        <artifact name="springtest:war exploded">
+        <artifact name="unnamed">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <artifact name="unnamed archive">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_springtest" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSH_movie_3" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -528,10 +148,10 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="65087" />
+        <option name="DEBUG_PORT" value="60482" />
       </RunnerSettings>
       <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="53660" />
+        <option name="DEBUG_PORT" value="60485" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -610,343 +230,65 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="springtest:war exploded" />
+          <artifact name="unnamed" />
+          <artifact name="unnamed archive" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.local tomcat" />
-      <item itemvalue="Application.tset" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.tset" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpringBeansView">
-    <option name="beanDetailsProportion" value="0.3" />
-  </component>
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration useDefault="false">C:\Users\admin\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b05be728-2ebe-4ae4-902c-0e41a4ad3ea9" name="Default Changelist" comment="" />
-      <created>1543283448684</created>
+      <changelist id="32d7d9f0-8f64-4774-a18c-e8ebe448f73b" name="Default Changelist" comment="" />
+      <created>1544493351432</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1543283448684</updated>
-      <workItem from="1543283453078" duration="4916000" />
-      <workItem from="1543289402176" duration="10968000" />
-      <workItem from="1543306699016" duration="767000" />
-      <workItem from="1543307507325" duration="410000" />
-      <workItem from="1543308230943" duration="680000" />
-      <workItem from="1543310659439" duration="257000" />
-      <workItem from="1543311185629" duration="905000" />
-      <workItem from="1543368254556" duration="1829000" />
-      <workItem from="1543382114517" duration="327000" />
-      <workItem from="1543383388684" duration="16000" />
-      <workItem from="1543383422308" duration="4813000" />
-      <workItem from="1543452567668" duration="5656000" />
-      <workItem from="1543459699536" duration="366000" />
-      <workItem from="1543460123976" duration="722000" />
-      <workItem from="1543461090035" duration="15465000" />
-      <workItem from="1543537843523" duration="2573000" />
-      <workItem from="1543543365854" duration="4352000" />
-      <workItem from="1543548032530" duration="10249000" />
-      <workItem from="1543807589433" duration="12766000" />
-      <workItem from="1543885074146" duration="13361000" />
-      <workItem from="1543970148109" duration="17230000" />
-      <workItem from="1544001875402" duration="655000" />
-      <workItem from="1544062976816" duration="2649000" />
-      <workItem from="1544077051320" duration="501000" />
-      <workItem from="1544402891875" duration="2464000" />
-      <workItem from="1544409327340" duration="110000" />
-      <workItem from="1544438653825" duration="1144000" />
-      <workItem from="1544488852798" duration="4037000" />
+      <updated>1544493351432</updated>
+      <workItem from="1544493355208" duration="241000" />
     </task>
-    <task id="LOCAL-00001">
-      <created>1543472117709</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1543472117709</updated>
-    </task>
-    <task id="LOCAL-00002">
-      <created>1543473442999</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1543473442999</updated>
-    </task>
-    <task id="LOCAL-00003">
-      <created>1543539567601</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1543539567601</updated>
-    </task>
-    <task id="LOCAL-00004">
-      <created>1543554592663</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1543554592663</updated>
-    </task>
-    <task id="LOCAL-00005">
-      <created>1543554753831</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1543554753832</updated>
-    </task>
-    <task id="LOCAL-00006">
-      <created>1543566750908</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1543566750908</updated>
-    </task>
-    <task id="LOCAL-00007">
-      <created>1543821036957</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1543821036957</updated>
-    </task>
-    <task id="LOCAL-00008">
-      <created>1543821839335</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1543821839335</updated>
-    </task>
-    <task id="LOCAL-00009">
-      <created>1543823012003</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1543823012003</updated>
-    </task>
-    <task id="LOCAL-00010">
-      <created>1543825965906</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1543825965906</updated>
-    </task>
-    <task id="LOCAL-00011">
-      <created>1543826061407</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1543826061407</updated>
-    </task>
-    <task id="LOCAL-00012">
-      <created>1543900838868</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1543900838868</updated>
-    </task>
-    <task id="LOCAL-00013">
-      <created>1543904417498</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1543904417498</updated>
-    </task>
-    <task id="LOCAL-00014">
-      <created>1543920962116</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1543920962116</updated>
-    </task>
-    <task id="LOCAL-00015">
-      <created>1543921001220</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1543921001220</updated>
-    </task>
-    <task id="LOCAL-00016">
-      <created>1543921029539</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1543921029539</updated>
-    </task>
-    <task id="LOCAL-00017">
-      <created>1543921431929</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1543921431929</updated>
-    </task>
-    <task id="LOCAL-00018">
-      <created>1543921461280</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1543921461280</updated>
-    </task>
-    <task id="LOCAL-00019">
-      <created>1543975006653</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1543975006653</updated>
-    </task>
-    <task id="LOCAL-00020">
-      <created>1543976185067</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1543976185067</updated>
-    </task>
-    <task id="LOCAL-00021">
-      <created>1543979286039</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1543979286039</updated>
-    </task>
-    <task id="LOCAL-00022">
-      <created>1543997453302</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1543997453303</updated>
-    </task>
-    <task id="LOCAL-00023" summary="1">
-      <created>1544404082435</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1544404082435</updated>
-    </task>
-    <task id="LOCAL-00024" summary="1">
-      <created>1544438682941</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1544438682941</updated>
-    </task>
-    <task id="LOCAL-00025" summary="1">
-      <created>1544438942789</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1544438942789</updated>
-    </task>
-    <task id="LOCAL-00026" summary="1">
-      <created>1544439260757</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1544439260757</updated>
-    </task>
-    <task id="LOCAL-00027" summary="1">
-      <created>1544439796851</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1544439796851</updated>
-    </task>
-    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.27 at 14h 47m 07s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.27 at 15h 38m 41s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.27 at 15h 42m 27s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.27 at 15h 43m 44s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.27 at 15h 44m 29s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.27 at 16h 44m 19s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.29 at 09h 34m 20s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.29 at 09h 35m 17s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.29 at 09h 36m 08s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_demo1_(1) - 2018.11.29 at 09h 52m 52s.xml">
-      <configuration name="SpringTest.demo1 (1)" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120188000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Web" order="0" sideWeight="0.79941434" side_tool="true" weight="0.22117962" />
-      <window_info id="Persistence" order="1" side_tool="true" weight="0.3297587" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.24235807" visible="true" weight="0.22654155" />
-      <window_info id="Structure" order="3" sideWeight="0.7576419" side_tool="true" weight="0.22654155" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="JRebel" order="7" sideWeight="0.7161572" side_tool="true" weight="0.22117962" />
-      <window_info id="Learn" order="8" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.329429" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Java Enterprise" order="2" sideWeight="0.49932975" weight="0.329429" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.15080526" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49932975" weight="0.10117302" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49932975" visible="true" weight="0.13343109" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49932975" weight="0.329429" />
-      <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49932975" weight="0.5645161" />
-      <window_info anchor="bottom" id="Database Changes" order="10" sideWeight="0.49932975" weight="0.329429" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32991204" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.329429" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" weight="0.46559298" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32844576" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.329429" />
-      <window_info anchor="bottom" id="Problems" order="16" weight="0.329429" />
-      <window_info anchor="bottom" id="JRebel Executor" order="17" weight="0.3079179" />
-      <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" weight="0.329429" />
-      <window_info anchor="bottom" id="Inspection Results" order="19" weight="0.329429" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="20" />
-      <window_info anchor="bottom" id="Statistic" order="21" />
+      <window_info id="Persistence" side_tool="true" />
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Learn" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.12868632" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="8" side_tool="true" weight="0.15884718" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -955,380 +297,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/SpringTest.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9746b46f-e126-412d-87bd-bd32d602e650/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/ConsoleAppender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/ConsoleAppender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/logback.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/rebel.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-c3p0/5.3.7.Final/hibernate-c3p0-5.3.7.Final.jar!/org/hibernate/c3p0/internal/C3P0ConnectionProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ly/service/Myservice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ly/service/serviceimpl/MyserviceImpl.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ly/controller/ShowViewServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE.jar!/org/springframework/stereotype/Component.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH_movie.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/hibernate.cfg.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.5.RELEASE/spring-orm-4.3.5.RELEASE.jar!/org/springframework/orm/hibernate5/HibernateTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="552" column="5" lean-forward="true" selection-start-line="552" selection-start-column="5" selection-end-line="552" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/javabean/Dg.java" />
-    <entry file="file://$PROJECT_DIR$/java/com/ly/javabean/FilmBtsNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/javabean/ApkInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.5.RELEASE/spring-orm-4.3.5.RELEASE.jar!/org/springframework/orm/hibernate5/support/HibernateDaoSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar!/org/hibernate/SessionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/config/SysDaoConfiiguration.java" />
-    <entry file="file://$PROJECT_DIR$/java/com/ly/test/SpringTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.5.RELEASE/spring-orm-4.3.5.RELEASE.jar!/org/springframework/orm/hibernate5/LocalSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/util/tcpSockUtil.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar!/org/aspectj/lang/JoinPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar!/org/springframework/aop/framework/adapter/AfterReturningAdviceInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar!/org/springframework/aop/aspectj/AspectJAfterReturningAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="405" selection-start-line="405" selection-end-line="405" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84968">
-          <caret line="4559" column="47" selection-start-line="4559" selection-start-column="47" selection-end-line="4559" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/dao/Sysdao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.18/struts2-core-2.5.18.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2109" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.18/struts2-core-2.5.18.jar!/org/apache/struts2/dispatcher/filter/StrutsPrepareAndExecuteFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/success.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/java/com/ly/test/demo.java" />
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/springtest_war_exploded/WEB-INF/classes/com/ly/controller/SendMessageAction.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/service/Myservice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/service/serviceimpl/MyserviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/dao/daoImpl/SysDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/controller/ShowViewServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/test/tset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="214" column="10" lean-forward="true" selection-start-line="214" selection-start-column="10" selection-end-line="214" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/controller/SendMessageAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-  </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>springtest:war exploded</last-edited>
+          <last-edited>unnamed archive</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.22153845" />
+                <option value="0.2" />
                 <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.22153845" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.22153845" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
+      <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.22153845" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>SSH_movie</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.22153845" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.22153845" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

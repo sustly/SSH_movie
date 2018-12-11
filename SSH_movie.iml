@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
+<module version="4">
   <component name="FacetManager">
-    <facet type="web" name="Web">
-      <configuration>
-        <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
-        </descriptors>
-        <webroots>
-          <root url="file://$MODULE_DIR$/web" relative="/WEB-INF" />
-        </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/java" />
-          <root url="file://$MODULE_DIR$/resource" />
-        </sourceRoots>
-      </configuration>
-      <facet type="Struts2" name="Struts 2">
-        <configuration>
-          <fileset id="s2fileset" name="My Fileset " removed="false">
-            <file>file://$MODULE_DIR$/java/struts.xml</file>
-            <file>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.18/struts2-core-2.5.18.jar!/struts-default.xml</file>
-          </fileset>
-          <propertiesKeys disabled="false" />
-        </configuration>
-      </facet>
-    </facet>
-    <facet type="hibernate" name="Hibernate">
-      <configuration>
-        <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" value="eb0c9836-b90a-4d1a-bca0-379ca0aa3e15" />
-          <unit-entry name="noname-applicationContext.xml@860" value="fcdafae8-af7f-4ac6-9494-aaf74c8547e3" />
-          <unit-entry name="noname-applicationContext.xml@904" />
-          <unit-entry name="noname-applicationContext.xml@937" />
-          <unit-entry name="noname-applicationContext.xml@944" />
-        </datasource-map>
-        <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/java/hibernate.cfg.xml" />
-      </configuration>
-    </facet>
     <facet type="JRebel" name="JRebel">
       <configuration>
         <option name="deleteUnindexed" value="false" />
@@ -48,8 +12,8 @@
             <entry key="com.zeroturnaround.jrebel.FormatVersion" value="7.0.0" />
             <entry key="com.zeroturnaround.jrebel.remoting.DeleteUnindexedFiles" value="false" />
             <entry key="com.zeroturnaround.jrebel.remoting.ModuleRemoteServerSelection" value="off" />
-            <entry key="jrebelEnabled" value="true" />
-            <entry key="lastExternalPluginCheckTime" value="1543461089388" />
+            <entry key="jrebelEnabled" value="false" />
+            <entry key="rebelXmlGenerationType" value="ide" />
           </map>
         </option>
         <option name="masterModuleName" />
@@ -58,6 +22,32 @@
         <option name="secure" value="true" />
         <option name="url" />
         <option name="xmlDir" />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+      <facet type="Struts2" name="Struts 2">
+        <configuration>
+          <fileset id="s2fileset" name="My Fileset " removed="false">
+            <file>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.18/struts2-core-2.5.18.jar!/struts-default.xml</file>
+            <file>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-spring-plugin/2.5.18/struts2-spring-plugin-2.5.18.jar!/struts-plugin.xml</file>
+          </fileset>
+          <propertiesKeys disabled="false" />
+        </configuration>
+      </facet>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate.cfg.xml" />
       </configuration>
     </facet>
   </component>
