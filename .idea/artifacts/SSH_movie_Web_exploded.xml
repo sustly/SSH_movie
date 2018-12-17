@@ -1,9 +1,11 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="unnamed">
-    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+  <artifact type="exploded-war" name="SSH_movie:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/SSH_movie_Web_exploded</output-path>
     <root id="root">
+      <element id="javaee-facet-resources" facet="SSH_movie/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="SSH_movie/web/Web" />
           <element id="module-output" name="SSH_movie" />
         </element>
         <element id="directory" name="lib">
@@ -48,7 +50,6 @@
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-c3p0:5.3.7.Final" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:5.4.1.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-all:1.3" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.20" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.20" />
@@ -73,10 +74,10 @@
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.6" />
           <element id="library" level="project" name="Maven: org.apache.struts:struts2-spring-plugin:2.5.18" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
           <element id="library" level="project" name="Java EE 6-Java EE 6" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="SSH_movie/web/Web" />
     </root>
   </artifact>
 </component>

@@ -4,9 +4,8 @@ import com.ly.service.Myservice;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
 import org.json.JSONObject;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
@@ -15,14 +14,13 @@ import java.util.List;
  * @author liyue
  * @date 2018/12/10 13:28
  */
-@Component
 public class SendMessageAction extends ActionSupport {
     private String param;
     public void setParam(String param) {
         this.param = param;
     }
 
-    @Autowired
+    @Resource(name = "service")
     public Myservice service;
 
 

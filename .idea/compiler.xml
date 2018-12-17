@@ -9,5 +9,8 @@
         <module name="SSH_movie" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SSH_movie" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

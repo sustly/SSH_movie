@@ -2,19 +2,19 @@ package com.ly.service.serviceimpl;
 
 import com.ly.dao.Sysdao;
 import com.ly.service.Myservice;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
  * @author liyue
  * @date 2018/11/29 9:27
  */
-@Service
+@Service("service")
 public class MyserviceImpl implements Myservice {
 
-    @Autowired
+    @Resource(name = "dao")
     private final Sysdao dao;
 
 
