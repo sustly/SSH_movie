@@ -10,21 +10,14 @@
 
     <aop:aspectj-autoproxy proxy-target-class="true" />
     <bean id="loggerAspect" class="com.ly.aspect.loggerAspect" />
-    <!-- <bean name="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-         <property name=""
-     </bean>-->
 
     <bean name="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
     </bean>
 
-    <!--<context:component-scan base-package="com" />-->
     <bean name="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
-  <!--  <bean name="dao" class="com.ly.dao.daoImpl.SysDaoImpl">
-        <property name="hibernateTemplate" ref="hibernateTemplate"/>
-    </bean>-->
 
 </beans>
