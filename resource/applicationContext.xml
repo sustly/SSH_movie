@@ -11,13 +11,21 @@
 
     <aop:aspectj-autoproxy proxy-target-class="true" />
 
-    <bean name="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
     </bean>
 
-    <bean name="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
+    <!--aop的xml方式-->
+  <!--
+    <aop:config>
+        <aop:pointcut id="pointcut" expression="execution(* com.ly.dao.daoImpl.SysDaoImpl.saveOrUpdate(..))"></aop:pointcut>
+        <aop:aspect ref="loggerAspect">
+            <aop:before method="toString" pointcut-ref="pointcut"></aop:before>
+        </aop:aspect>
+    </aop:config>-->
 
 </beans>

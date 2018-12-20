@@ -20,8 +20,8 @@ import java.util.Arrays;
 public class loggerAspect {
 
     private Logger log = LoggerFactory.getLogger(this.getClass());
-
-    @Pointcut(value = "execution(* com.ly.dao.daoImpl.SysDaoImpl.*(..))")
+    //com.ly.dao.daoImpl包以及子包下所有方法
+    @Pointcut(value = "execution(* com.ly.dao.daoImpl..*.*(..))")
     public void pointCut() {
     }
 
