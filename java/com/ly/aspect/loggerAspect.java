@@ -26,7 +26,7 @@ public class loggerAspect {
     }
 
 
-    @AfterReturning(pointcut = "pointCut()", argNames = "joinPoint, retVal", returning = "retVal")
+    @AfterReturning(pointcut = "loggerAspect.pointCut()", argNames = "joinPoint, retVal", returning = "retVal")
     public void afterReturn(JoinPoint joinPoint, Object retVal) {
         String className = joinPoint.getSignature().getName();
         className = className.substring(className.lastIndexOf(".") + 1);

@@ -8,9 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6814d28a-ae66-4d3b-8f2a-801b26ac8a50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSH_movie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSH_movie.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,16 +43,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="83" />
+          <entry key="java" value="84" />
           <entry key="txt" value="32" />
-          <entry key="xml" value="105" />
+          <entry key="xml" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="83" />
+          <entry key="JAVA" value="84" />
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="XML" value="105" />
+          <entry key="XML" value="106" />
         </counts>
       </usages-collector>
     </session>
@@ -85,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="398">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -99,11 +97,14 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="268">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="method#pointCut#0;class#loggerAspect#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,8 +143,8 @@
         <option value="$PROJECT_DIR$/java/com/ly/dao/daoImpl/SysDaoImpl.java" />
         <option value="$PROJECT_DIR$/java/com/ly/controller/SendMessageAction.java" />
         <option value="$PROJECT_DIR$/java/com/ly/javabean/ApkInfo.java" />
-        <option value="$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java" />
         <option value="$PROJECT_DIR$/resource/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java" />
       </list>
     </option>
   </component>
@@ -376,7 +377,7 @@
       <workItem from="1544534331116" duration="1552000" />
       <workItem from="1545051268215" duration="4142000" />
       <workItem from="1545223359861" duration="2381000" />
-      <workItem from="1545313414952" duration="77000" />
+      <workItem from="1545313414952" duration="1699000" />
     </task>
     <task id="LOCAL-00001" summary="the first commit">
       <created>1545054842912</created>
@@ -420,11 +421,32 @@
       <option name="project" value="LOCAL" />
       <updated>1545056810461</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="the n times commit">
+      <created>1545313529113</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545313529113</updated>
+    </task>
+    <task id="LOCAL-00008" summary="the n times commit">
+      <created>1545313716835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545313716835</updated>
+    </task>
+    <task id="LOCAL-00009" summary="the n times commit">
+      <created>1545313739655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545313739655</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8152000" />
+    <option name="totallyTimeSpent" value="9774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -450,7 +472,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295583" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3295583" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.0396376" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -529,17 +551,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java">
+    <entry file="file://$PROJECT_DIR$/resource/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="398">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="268">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="method#pointCut#0;class#loggerAspect#0" />
+          </folding>
         </state>
       </provider>
     </entry>
