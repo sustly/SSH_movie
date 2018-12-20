@@ -19,6 +19,7 @@
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
+
     <!--aop的xml方式-->
   <!--
     <aop:config>
