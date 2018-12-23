@@ -29,7 +29,7 @@
         </tx:attributes>
     </tx:advice>
     <aop:config>
-        <aop:pointcut id="pointcut" expression="execution(* com.ly.dao.daoImpl..*.*(..))"/>
+        <aop:pointcut id="pointcut" expression="execution(* com.ly.service.serviceimpl..*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut"></aop:advisor>
     </aop:config>
 
