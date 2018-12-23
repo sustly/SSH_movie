@@ -6,9 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6814d28a-ae66-4d3b-8f2a-801b26ac8a50" name="Default Changelist" comment="">
+    <list default="true" id="6814d28a-ae66-4d3b-8f2a-801b26ac8a50" name="Default Changelist" comment="the n times commit">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/com.springsource.org.aspectj.weaver-1.6.8.release.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSH_movie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSH_movie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,38 +24,42 @@
     <session id="-422886237">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.117" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.79" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
-          <entry key="xml" value="3" />
+          <entry key="class" value="5" />
+          <entry key="java" value="8" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
-          <entry key="XML" value="3" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="8" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="84" />
           <entry key="txt" value="32" />
-          <entry key="xml" value="106" />
+          <entry key="xml" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="84" />
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="XML" value="106" />
+          <entry key="XML" value="203" />
         </counts>
       </usages-collector>
     </session>
@@ -83,25 +90,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resource/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="177">
+              <caret line="31" column="89" lean-forward="true" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="212" column="10" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="244">
+              <caret line="23" column="62" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="62" />
               <folding>
                 <element signature="method#pointCut#0;class#loggerAspect#0" />
               </folding>
@@ -143,8 +154,9 @@
         <option value="$PROJECT_DIR$/java/com/ly/dao/daoImpl/SysDaoImpl.java" />
         <option value="$PROJECT_DIR$/java/com/ly/controller/SendMessageAction.java" />
         <option value="$PROJECT_DIR$/java/com/ly/javabean/ApkInfo.java" />
-        <option value="$PROJECT_DIR$/resource/applicationContext.xml" />
         <option value="$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/resource/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -173,7 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,24 +236,38 @@
             <path>
               <item name="SSH_movie" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSH_movie" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ly" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSH_movie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSH_movie" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="HibernateTransactionManager&#9;PSI&#9;JAVA://org.springframework.orm.hibernate5.HibernateTransactionManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545057633280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545552733114" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/com.springsource.org.aspectj.weaver-1.6.8.release.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.67922795" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IEDAworks\SSH_movie\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -377,7 +403,9 @@
       <workItem from="1544534331116" duration="1552000" />
       <workItem from="1545051268215" duration="4142000" />
       <workItem from="1545223359861" duration="2381000" />
-      <workItem from="1545313414952" duration="1699000" />
+      <workItem from="1545313414952" duration="1946000" />
+      <workItem from="1545484859621" duration="819000" />
+      <workItem from="1545547340840" duration="3772000" />
     </task>
     <task id="LOCAL-00001" summary="the first commit">
       <created>1545054842912</created>
@@ -442,17 +470,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545313739655</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="the n times commit">
+      <created>1545315134661</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545315134661</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9774000" />
+    <option name="totallyTimeSpent" value="14612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25937834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26312968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -464,7 +499,7 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994641" visible="true" weight="0.25481313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,13 +507,13 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295583" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3295583" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.0396376" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005359" side_tool="true" weight="0.3295583" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.3295583" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4994641" weight="0.3295583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -510,6 +545,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.5.RELEASE/spring-orm-4.3.5.RELEASE.jar!/org/springframework/orm/hibernate5/LocalSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/com/ly/controller/SendMessageAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -530,9 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/com/ly/service/serviceimpl/MyserviceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -551,20 +590,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/applicationContext.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.5.RELEASE/spring-orm-4.3.5.RELEASE.jar!/org/springframework/orm/hibernate5/HibernateTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="120">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.5.RELEASE/spring-orm-4.3.5.RELEASE.jar!/org/springframework/orm/hibernate5/HibernateTransactionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/com/ly/service/Myservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="212" column="10" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/com/ly/aspect/loggerAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="244">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="62" />
           <folding>
             <element signature="method#pointCut#0;class#loggerAspect#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="31" column="89" lean-forward="true" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
         </state>
       </provider>
     </entry>
@@ -578,7 +645,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.67922795" />
                 <option value="0.5" />
               </list>
             </option>
@@ -599,10 +666,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>com.springsource.org.aspectj.weaver-1.6.8.release</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.67922795" />
               </list>
             </option>
           </splitter-proportions>
@@ -614,7 +682,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.67922795" />
               </list>
             </option>
           </splitter-proportions>
@@ -626,7 +694,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.67922795" />
                 <option value="0.6" />
               </list>
             </option>
@@ -651,7 +719,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.67922795" />
               </list>
             </option>
           </splitter-proportions>

@@ -11,9 +11,10 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" />
+          <unit-entry name="hibernate.cfg.xml" value="600f5ff2-3de9-4a44-bf84-637280e84ba7" />
           <unit-entry name="noname-applicationContext.xml@785" />
           <unit-entry name="noname-applicationContext.xml@945" />
+          <unit-entry name="sessionFactory" value="8b2c2a23-9af9-49b4-822d-92f1a37251f7" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/resource/hibernate.cfg.xml" />
@@ -51,6 +52,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.5.RELEASE" level="project" />
@@ -121,6 +123,6 @@
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-spring-plugin:2.5.18" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.38" level="project" />
-    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" name="com.springsource.org.aspectj.weaver-1.6.8.release" level="application" />
   </component>
 </module>
