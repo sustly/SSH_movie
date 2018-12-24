@@ -4,6 +4,7 @@ import com.ly.service.Myservice;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
 import org.json.JSONObject;
+import org.springframework.stereotype.Controller;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
@@ -14,6 +15,7 @@ import java.util.List;
  * @author liyue
  * @date 2018/12/10 13:28
  */
+@Controller
 public class SendMessageAction extends ActionSupport {
     private String param;
     public void setParam(String param) {

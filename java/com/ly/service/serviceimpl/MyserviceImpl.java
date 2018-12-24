@@ -5,6 +5,7 @@ import com.ly.service.Myservice;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import javax.ejb.TransactionManagement;
 import java.util.List;
 
 /**
@@ -12,6 +13,7 @@ import java.util.List;
  * @date 2018/11/29 9:27
  */
 @Service("service")
+@TransactionManagement
 public class MyserviceImpl implements Myservice {
 
     @Resource(name = "dao")
